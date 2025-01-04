@@ -1,0 +1,1 @@
+first you can run the file on your machine and hit the prometheus api to see the data/metrics.
