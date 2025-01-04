@@ -1,1 +1,20 @@
-first you can run the file on your machine and hit the prometheus api to see the data/metrics.
+first you can run the file on your machine by app.py and hit the prometheus exporter api to see the data/metrics of 
+prometheus.
+build docker file 
+create yaml file  and start minikube cluster through powershell by minikube start.
+after starting the cluster , check all the images by minikube image list.
+push the image to cluster , check files in the cluster and apply yaml file. run the command on vs code.
+
+access the app through cluster 
+install helm and setup it. once you done with setup and hit the bash cmd for api you will be able to see prometheus running 
+through cluster.prometheus is running under cluster Using helm
+with the help of port forwaring we are accessing prometheus on localhost 
+tell the prometheus from which address you have to access app metrics , restart the prometheus
+verify Prometheus is scraping metrics from your Flask app
+install grafana in cluster 
+install grafana in namespace , actually sending the grafana in namespace
+check grafana port and it is running or not
+port forward grafana on localhost 4000 while prometheus run on 9090 port
+add datasource in grafana,here grafana and prometheus are successfully connected .
+query metrics
+
